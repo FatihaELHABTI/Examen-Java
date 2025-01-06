@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Label?>
+
+<VBox spacing="20" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.examen_java.controlleurs.SelectionRepasController">
+    <Label text="Sélectionnez un Repas" style="-fx-font-size: 20px;"/>
+    <ListView fx:id="listViewRepas"/>
+    <Button text="Suivant" onAction="#goToChoixIngredients"/>
+</VBox>
